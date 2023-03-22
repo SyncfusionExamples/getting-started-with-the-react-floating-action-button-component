@@ -1,0 +1,22 @@
+@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-react-lists/styles/material.css";
+
+.App{
+  padding: 10px;
+}
+
+#list{
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin: auto;
+  position: relative;
+}
+
+#list .e-btn .e-btn-icon.e-icons{
+  color: #ffffff;
+}
+
+#list .e-btn.e-outline .e-btn-icon.e-icons {
+  color: #e6326f;
+}
